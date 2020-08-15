@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 100px;
+}
+h2{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+}
+p{
+    font-family: 'Noto Serif Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
+p.white_adress{
+    position: absolute;
+    width: 332px;
+    height: 26px;
+    left: 131px;
+    top: 478px;
+    color: #FFFFFF;
+}
+blockquote{
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+div.round_house_white{
+    position: absolute;
+    width: 925.02px;
+    height: 336.64px;
+    left: 131.24px;
+    top: 116.2px; 
+}
+
+@font-face {
+    font-family: 'Noto Serif Regular';
+    src: url('NotoSerif.eot');
+    src: url('NotoSerif.eot?#iefix') format('embedded-opentype'),
+    url('NotoSerif.woff') format('woff'),
+    url('NotoSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rubik Mono One';
+    src: url('RubikMonoOne-Regular.eot');
+    src: local('Rubik Mono One Regular'), local('RubikMonoOne-Regular'),
+        url('RubikMonoOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RubikMonoOne-Regular.woff') format('woff'),
+        url('RubikMonoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
