@@ -42,7 +42,68 @@ div.round_house_white{
     top: 116px; 
 }
 
+.CTA{
+    font-family: Orator Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0B22F2;
+}
+.contacts{
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 39px;
+}
+.text{
+    font-family: Orator Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+#RADAR{
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0B22F2;
+   }
+#RESEARCH{
+    font-family: Orator Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
 @font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 300;
+    src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.eot);
+    src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.eot?#iefix) format('embedded-opentype'),
+         url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.ttf) format('truetype');
+  }
+  /*не нашла шрифт, чтобы скачать, но он был установлен в фигме (и вроде бы это значит, что это гугл-шрифт), но автоматически не вставал (в отличие от шрифта Orator) и в гугл-поиске не находился. Вот нашла такой способ */ 
+  @font-face {
+    font-family: 'PT Sans Caption';
+    src: url('PTSans-Caption.eot');
+    src: local('PT Sans Caption'), local('PTSans-Caption'),
+        url('PTSans-Caption.eot?#iefix') format('embedded-opentype'),
+        url('PTSans-Caption.woff2') format('woff2'),
+        url('PTSans-Caption.woff') format('woff'),
+        url('PTSans-Caption.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
     font-family: 'Noto Serif Regular';
     src: url('NotoSerif.eot');
     src: url('NotoSerif.eot?#iefix') format('embedded-opentype'),
