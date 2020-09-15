@@ -386,21 +386,25 @@ body {
     padding: 20px;
 }
 
-  h1 {
+h1 {
      font-family: 'Inter'; 
      font-size: 40px;
      margin-top: 50px;
      margin-bottom: 20px;
   }
+
+}
+
   .all_methods{
-      display: flex;
-  }
+    display: flex;
+   }
 
   .method{
     margin: auto;
     width: 25%;
     /* если небольшой экран, и четверть его меньше 100px, то бокс не будет уменьшаться меньше 100 */
     min-width: 100px;
+  
    }
 
   .caption {
@@ -412,6 +416,35 @@ body {
   img{
     /*чтобы картинка вставала в ширину div*/  
     max-width:100%;
-    max-height:auto;
   }
 
+
+  /*далее для страницы каждого метода*/
+.columns{
+    display: flex;
+    margin: 50px 82px 20px 82px;
+    /* margin-bottom: 20px; */
+}
+
+.column{
+    width: 50%;
+}
+
+.column_right{
+    margin-top: 200px;
+}
+/* 
+.column_left{
+    padding-right: 82px;
+} */
+
+p{
+    font-family: 'Formular';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.image_fixed{
+    position: fixed;
+    width: 25%;
+}
